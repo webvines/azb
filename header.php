@@ -1,11 +1,15 @@
+<?php require "config.php"; ?>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>AZB &amp; PARTNERS</title>
 
 	<!-- CUSTOM CSS -->
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . "css/style.css"?>">
 	<!-- BOOTSTRAP CSS -->
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . "css/bootstrap.min.css"?>">
+	<!-- FONTAWESOME -->
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . "css/font-awesome.min.css"?>">
 
 	<!-- META TAGS -->
 	<meta chartset="utf-8">
@@ -13,7 +17,7 @@
 </head>
 <body>
 
-<header>
+<header class="container-fluid">
 	<!-- LOGO -->
 	<div class="row">
 		<div class="col-md-12">
@@ -28,15 +32,15 @@
 			<div class="sub-header-dark">
 				<div class="nav-container">
 					<ul class="navigation">
-						<li><a href="">about us</a></li>
-						<li><a href="./awards">awards</a></li>
-						<li><a href="">careers</a></li>
-						<li><a href="">contact us</a></li>
+						<li><a href="<?php echo BASE_URL?>">about us</a></li>
+						<li><a href="#">practise areas</a></li>
+						<li><a href="#">industry exposure</a></li>
+						<li><a href="<?php echo BASE_URL . "awards" ?>">awards</a></li>
+						<li><a href="#">careers</a></li>
+						<li><a href="#">contact us</a></li>
 					</ul>
 				</div>				
-			</div>
-			
-		</div>
-		
+			</div>			
+		</div>		
 	</div>
 </header>
