@@ -25,7 +25,7 @@
 				<span class="logo-azb"></span>			
 			</div>
 			<!-- HAMBURGER ICON -->
-			<div id="hamburger" class="visible-tab visible-phone hidden-desktop">
+			<div id="hamburger" class="visible-tab visible-phone hidden-desktop" onclick="openNav()">
 				<span><i class="fa fa-bars"></i></span>
 			</div>
 		</div>		
@@ -49,14 +49,9 @@
 	</div>
 
 	<!-- DRAWER -->
-	<div style="display: none;">
-		<ul class="">
-			<li><a href="<?php echo BASE_URL?>">about us</a></li>
-			<li><a href="#">practise areas</a></li>
-			<li><a href="#">industry exposure</a></li>
-			<li><a href="<?php echo BASE_URL . "awards" ?>">awards</a></li>
-			<li><a href="#">careers</a></li>
-			<li><a href="#">contact us</a></li>
-		</ul>
+	<div id="drawer" class="side-nav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>		
+			<a href="<?php echo BASE_URL?>">about us</a>			
+			<a href="<?php echo BASE_URL . "awards" ?>">awards</a>
 	</div>
 </header>

@@ -81,7 +81,7 @@
 						<!-- IMAGE -->
 						<div class="profile-container">
 							<img class="ajay-img" src="./img/faces/ajay.png">
-							<span class="img-add">+</span>
+							<span class="img-add"><i class="fa fa-plus"></i></span>
 						</div>
 						<!-- INFO -->
 						<div class="management-info">
@@ -96,7 +96,7 @@
 						<!-- IMAGE -->
 						<div class="profile-container">
 							<img class="zia-img" src="./img/faces/zia.png">
-							<span class="img-add">+</span>
+							<span class="img-add"><i class="fa fa-plus"></i></span>
 						</div>
 						<!-- INFO -->
 						<div class="management-info">
@@ -111,7 +111,7 @@
 						<!-- IMAGE -->
 						<div class="profile-container">
 							<img class="bahram-img" src="./img/faces/bahram.png">
-							<span class="img-add">+</span>
+							<span class="img-add"><i class="fa fa-plus"></i></span>
 						</div>
 						<!-- INFO -->
 						<div class="management-info">

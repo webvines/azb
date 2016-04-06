@@ -38,3 +38,17 @@ $(function(){
 	})
 
 });
+
+//DRAWER
+
+
+var openNav = function(){
+
+
+		document.getElementById("drawer").style.width = "250px";
+}
+
+var closeNav = function(){
+
+	document.getElementById("drawer").style.width = "0";
+}
