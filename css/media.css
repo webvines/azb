@@ -1,0 +1,132 @@
+@media screen and (min-width: 321px) and (max-width: 768px){
+
+	.pd-tab{
+
+		margin-top: 62px;
+	}
+
+	.hidden-tab{
+
+		display: none;
+	}
+
+	.visible-tab{
+
+		display: block;
+	}
+
+	.img-box{
+
+		/*width: 49%;*/
+	}
+
+	.management-container{
+
+		margin: auto;
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+
+	#hamburger{
+
+		position: absolute;
+		top: 20px !important;
+		right: 20px !important;
+	}
+
+
+	.hidden-phone{
+
+		display: none;
+	}
+
+	.visible-phone{
+
+		display: block;
+	}
+
+
+	.logo-azb{
+
+		background: url('../img/icons/logo.png') no-repeat;
+		background-size: 60% auto;
+		height: 120px;
+		width: 450px;
+		display: block;
+		margin-top: 20px;
+	}
+
+	.pd-tab{
+
+		margin-top: 62px;
+	}
+
+	.footer-container span{
+
+		text-align: center;
+		margin: auto;
+		width: 220px;
+	}
+
+	.cover-img{
+
+		height: 190px;
+	}
+
+	.awards-container{
+
+		padding-top: 50px;
+	}
+
+	#top{
+
+		display: none !important;
+	}
+
+	.img-box{
+
+		/*width: 49%;*/
+	}
+
+	.management-container{
+
+		margin: auto;
+		width: 80%;
+	}
+
+	.sub-title-posts{
+
+		font-size: 24px;
+	}
+
+	.law-img{
+
+		max-width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 1024px){
+
+	.hidden-desktop{
+
+		display: none;
+	}
+}
+
+#hamburger{
+
+	position: absolute;
+	top: 45px;
+	right: 35px;
+	cursor: pointer;
+
+}
+
+.fa-bars{
+
+	font-size: 28px !important;
+}

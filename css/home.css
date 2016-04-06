@@ -35,6 +35,7 @@
 
 	color: #fff;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .navigation li a:hover{
@@ -162,6 +163,7 @@
 .management-info{
 
 	padding: 15px;
+	background: #fff;
 }
 
 .bg-light{
@@ -226,7 +228,7 @@
 	display: block;
 	position: absolute;
 	left: 20px;
-	top: 8px;
+	top: 7px;
 
 }
 
@@ -250,4 +252,36 @@ footer{
 
 	width: 100%;
 	background: #000;
+}
+
+.management-container{
+
+	margin: auto;
+	width: 73%;
+}
+
+.profile-container{
+
+	position: relative;
+}
+
+.img-add{
+
+	display: block;
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 4px #888;
+	right: 10px;
+	bottom: -15px;
+	background: #00468b;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.second-slider{
+
+	margin-top: 60px;
 }

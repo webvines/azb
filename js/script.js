@@ -19,3 +19,22 @@ $(window).load(function(){
 // 	});
 
 // });
+
+// SCROLL TO TOP
+
+$(function(){
+
+	$(window).scroll(function(){
+
+		
+		if($(window).scrollTop() > 100){
+
+			$("#top").fadeIn();
+
+		}else{
+
+			$("#top").fadeOut();
+		}
+	})
+
+});
